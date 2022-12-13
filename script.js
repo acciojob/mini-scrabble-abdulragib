@@ -2,7 +2,7 @@
 let displayText=document.getElementById('evaluatedText')
 let displayCount=document.getElementById('letterCount')
 
-evaluatedText.onkeyup= () =>{
+displayText.onkeyup= () =>{
     displayCount.innerText = displayText.value.length
 }
   
